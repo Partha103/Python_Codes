@@ -1,0 +1,5 @@
+p = float(input("Enter your principle amount : "))
+i = float(input("Enter your interest : "))
+t = int(input("Enter time : "))
+r = (i * 100)/(p * t)
+print("the rate of interest is ",r)
